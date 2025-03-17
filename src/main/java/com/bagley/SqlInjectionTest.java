@@ -15,10 +15,9 @@ public class SqlInjectionTest {
         System.out.println("Bagley: Iniciando teste de SQL Injection em " + url);
         for (String payload : commonSqlPayloads) {
             String testUrl = url + "?input=" + payload;
-            // Simula um envio HTTP (não está implementado de forma real aqui)
+          
             System.out.println("Bagley: Testando com payload: " + payload);
-            // Aqui você poderia fazer uma requisição real HTTP e verificar a resposta.
-            // Exemplo fictício de resposta:
+         
             boolean vulnerable = mockHttpRequest(testUrl);
             if (vulnerable) {
                 System.out.println("Bagley: Vulnerabilidade encontrada com o payload: " + payload);

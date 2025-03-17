@@ -1,0 +1,16 @@
+com\bagley\VulnerabilityScanner.class
+com\bagley\BagleyMain.class
+com\bagley\utils\FileHandler.class
+com\bagley\NLPProcessor.class
+com\bagley\SqlInjectionTest.class
+com\bagley\BagleyAI.class
+com\bagley\PhishingTest.class
+com\bagley\ResponseGenerator.class
+com\bagley\ContextManager.class
+com\bagley\RouterScanner.class
+com\bagley\ResponseEngine.class
+com\bagley\utils\PatternRecognizer.class
+com\bagley\DDoSSimulator.class
+com\bagley\SecurityLogger.class
+com\bagley\BagleyController.class
+com\bagley\EthicalHackingModule.class
